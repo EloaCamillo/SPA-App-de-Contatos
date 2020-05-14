@@ -20,7 +20,6 @@ class App extends React.Component {
           contact: data
 
         })
-        console.log("teste", this.state.contact)
       }).catch((error) => {
         console.log("Error!" + error)
       })
